@@ -1,0 +1,148 @@
+
+
+.container {
+    display: inline-block;
+    width: 400px;
+}
+
+/* Plugin styles */
+.social-element.hidden{
+    background-color:red !important;
+}
+.social-element .pull-left{
+    float:left;
+    margin-right: 10px;
+}
+
+.social-element .pull-right {
+    margin-left: 10px;
+}
+.social-element img {
+    width: 100%;
+    width: auto\9;
+    height: auto;
+    border: 0;
+    text-decoration: none:
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+.social-element .attachment {
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* Link styles */
+.social-element  a {
+    color: #0088cc;
+    text-decoration: none;
+    border-bottom: none;
+}
+.social-element  a:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+/* Text styles */
+.social-element small {
+    font-size: 85%;
+}
+.social-element strong {
+    font-weight: bold;
+}
+.social-element em {
+    font-style: italic;
+}
+.social-element p {
+    margin: 0 0 10px;
+}
+.social-element .media-body > p{
+    margin-bottom:4px;
+    min-height:20px;
+}
+.social-element p.social-text {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+/* Message styles */
+.social-element,
+.social-element .media-body {
+    overflow: hidden;
+    zoom: 1;
+    *overflow: visible;
+}
+.social-element .media-body .social-network-icon{
+    margin-top: -3px;
+    margin-right:5px;
+    width:16px;
+}
+.social-element .media-body div{
+    color:#666;
+    line-height: 20px;
+}
+
+.social-element .media-body i{
+    margin-right: 6px;
+}
+
+.social-element:first-child {
+    margin-top: 0;
+}
+.social-element .media-object {
+    display: block;
+    width:48px;
+    border-radius:15%;
+}
+.social-element .media-heading {
+    margin: 0 0 5px;
+}
+.social-element .media-list {
+    margin-left: 0;
+    list-style: none;
+}
+
+
+.social-element{
+    box-shadow: 0 0 10px 0 rgba(10, 10, 10, 0.2);
+    transition: 0.25s;
+    -webkit-backface-visibility: hidden;
+    margin:-1px;
+    margin-top:25px;
+    background-color: #fff;
+    color: #333;
+    text-align:left;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 16px;
+}
+.social-element:hover{
+    box-shadow: 0 0 20px 0 rgba(10, 10, 10, 0.4);
+}
+
+.social-element .content{
+    padding:15px;
+}
+.social-element .social-network-icon{
+    opacity:0.7;
+}
+
+.social-element .author-title{
+    color: #444;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+.social-element .author-title span{
+    margin-left: 6px;
+}
+
+.social-element .content a{
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+
